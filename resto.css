@@ -1,0 +1,73 @@
+html,body{
+	background-size: cover;
+	background:url(pic3.jpg) center center;
+	background-size:100% 100% ;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+
+}
+#h1{
+	text-shadow: 2px 2px white;
+	font-weight: bolder;
+	font-size: 65px;
+	color: cyan;
+	font-family: Lucida Calligraphy;
+	
+}
+#slogan{
+	font-family: Bradley Hand ITC;
+	font-weight: bolder;
+	text-shadow: 2px 2px lightcoral;
+	font-size: 30px;
+	color: ghostwhite;
+}
+p{
+	text-align: center;
+	margin-top: 140px;
+}
+.menu{
+	margin-top: 20px;
+	color: ghostwhite;
+	font-family: Lucida Calligraphy;
+	font-size: 23px;
+	overflow: hidden;
+	text-align: center;
+	float:inherit;
+	text-decoration: none;
+}
+
+.off{
+	text-align: center;
+	color: green;
+	text-shadow: 2px 2px lightblue;
+	font-family: Lucida Calligraphy;
+	text-decoration: none;
+	margin-top: 7%;
+	font-size: 30px;
+
+}
+.m1{
+	
+	width: 20px;
+	display: table;
+	font-weight: bolder;
+	font-size: 10px;
+	color: solid black;
+	font-family: Lucida Calligraphy;
+	border-width: 10px;
+	border-color: white;
+	border-style: solid;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+#seg1 ,#seg2 ,#seg3{
+	border: solid white;
+	padding-left: 60px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 20px;
+
+}
