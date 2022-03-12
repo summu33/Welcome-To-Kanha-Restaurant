@@ -1,73 +1,50 @@
-html,body{
-	background-size: cover;
+body{
 	background:url(pic3.jpg) center center;
 	background-size:100% 100% ;
     background-attachment:fixed;
     background-repeat: no-repeat;
-
-}
-#h1{
-	text-shadow: 2px 2px white;
-	font-weight: bolder;
-	font-size: 65px;
-	color: cyan;
-	font-family: Lucida Calligraphy;
 	
 }
-#slogan{
-	font-family: Bradley Hand ITC;
-	font-weight: bolder;
-	text-shadow: 2px 2px lightcoral;
-	font-size: 30px;
-	color: ghostwhite;
+#head{
+	margin-top: 5%;
+	text-align: center;
+	font-family: sofia,Helvetica;
+	font-size: 6vw;
 }
 p{
-	text-align: center;
-	margin-top: 140px;
-}
-.menu{
-	margin-top: 20px;
-	color: ghostwhite;
-	font-family: Lucida Calligraphy;
-	font-size: 23px;
-	overflow: hidden;
-	text-align: center;
-	float:inherit;
-	text-decoration: none;
-}
-
-.off{
-	text-align: center;
-	color: green;
-	text-shadow: 2px 2px lightblue;
-	font-family: Lucida Calligraphy;
-	text-decoration: none;
-	margin-top: 7%;
-	font-size: 30px;
-
-}
-.m1{
-	
-	width: 20px;
-	display: table;
+	font-family: Bradley Hand ITC,verdana,Arial;
+	font-size: 2vw;
 	font-weight: bolder;
-	font-size: 10px;
-	color: solid black;
-	font-family: Lucida Calligraphy;
-	border-width: 10px;
-	border-color: white;
-	border-style: solid;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-
+	text-shadow: 2px 2px 7px skyblue;
+	text-indent: 20%;
+	color: white;
 }
-#seg1 ,#seg2 ,#seg3{
-	border: solid white;
-	padding-left: 60px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	border-radius: 20px;
-
+ul{
+	text-align: center;
+}
+nav ul li{
+	font-family: Lucida Calligraphy;
+	font-size: 1.5vw;
+	text-align: center;
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
+}
+.sec2{
+	margin-top: 7%;
+}
+div ul li{
+	margin: 15px;
+	font-family: Lucida Calligraphy;
+	font-size: 2.5vw;
+	text-align: center;
+	display: inline;
+	padding: 15px;
+	border: 6px solid ghostwhite;
+	box-shadow: 5px 5px 5px lightskyblue;
+	border-radius: 10px;
+}
+ul a{
+	color: #ffffff;
+	text-decoration: none;
 }
